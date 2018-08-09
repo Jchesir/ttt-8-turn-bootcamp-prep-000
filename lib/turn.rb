@@ -31,3 +31,8 @@ end
 def position_taken?(array,index)
   array[index] != " "
 end
+
+def move (board, index, character = "X" )
+  board[index] = character 
+
+end 
